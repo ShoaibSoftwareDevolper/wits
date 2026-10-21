@@ -9,13 +9,13 @@ export default function CtaBanner() {
           <div className="flex flex-wrap items-center justify-center gap-5 shrink-0">
             <button
               type="button"
-              className="bg-[#1f1d1b] text-white text-xs sm:text-[13px] font-sans font-medium uppercase tracking-[0.2em] px-9 sm:px-10 py-4 sm:py-4.5 rounded-none hover:bg-black transition-all shadow-[0_14px_30px_-6px_rgba(0,0,0,0.38)] cursor-pointer"
+              className="bg-[#1f1d1b] text-white text-xs sm:text-[13px] font-sans font-medium uppercase tracking-[0.2em] px-9 sm:px-10 py-4 sm:py-4.5 rounded-none hover:bg-black transition-all cursor-pointer"
             >
               GET STARTED
             </button>
             <button
               type="button"
-              className="bg-white border border-[#ded8cf] text-[#1f1d1b] text-xs sm:text-[13px] font-sans font-medium uppercase tracking-[0.2em] px-9 sm:px-10 py-4 sm:py-4.5 rounded-none hover:bg-neutral-50 transition-all shadow-[0_12px_28px_-6px_rgba(0,0,0,0.12)] cursor-pointer"
+              className="bg-white border border-[#ded8cf] text-[#1f1d1b] text-xs sm:text-[13px] font-sans font-medium uppercase tracking-[0.2em] px-9 sm:px-10 py-4 sm:py-4.5 rounded-none hover:bg-neutral-50 transition-all cursor-pointer"
             >
               CONTACT US
             </button>

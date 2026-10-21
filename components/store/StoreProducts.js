@@ -45,7 +45,7 @@ export default function StoreProducts() {
                 onClick={() => setActiveCategory(tab.id)}
                 className={`text-xs font-sans font-medium px-3.5 py-1.5 rounded-full transition-colors cursor-pointer ${
                   activeCategory === tab.id
-                    ? "bg-[#1c1a17] text-white shadow-xs"
+                    ? "bg-[#1c1a17] text-white"
                     : "bg-[#fafafa] text-[#736c64] hover:text-[#1c1a17]"
                 }`}
               >

@@ -6,10 +6,10 @@ export default function Hero() {
       <div className="max-w-[1400px] mx-auto px-4 sm:px-8 lg:px-12 w-full grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-center pt-4 sm:pt-8 pb-12 sm:pb-16 lg:pb-24 relative z-10">
         <div className="lg:col-span-6 z-20">
           <h1 className="font-serif text-[44px] sm:text-[62px] md:text-[72px] lg:text-[78px] xl:text-[84px] leading-[1.03] tracking-[-0.025em] text-[#1c1916]">
-            <span className="block font-medium drop-shadow-[0_1px_1px_rgba(255,255,255,0.85)]">
+            <span className="block font-semibold">
               Rest Your Mind.
             </span>
-            <span className="block mt-1 sm:mt-1.5 font-normal italic bg-gradient-to-r from-[#8c562a] via-[#ab7242] to-[#75441e] bg-clip-text text-transparent drop-shadow-[0_1px_1px_rgba(255,255,255,0.45)]">
+            <span className="block mt-1 sm:mt-1.5 font-semibold text-[#8c562a]">
               Calm Your Body.
             </span>
           </h1>
@@ -18,31 +18,10 @@ export default function Hero() {
             Immerse your senses in pure botanical harmony. Handcrafted from rare organic extracts and slow-distilled essences to quiet the mind and awaken the spirit.
           </p>
 
-          <div className="mt-6 sm:mt-7 inline-flex items-center gap-3.5 sm:gap-4 p-0 max-w-md">
-            <div className="relative w-20 h-14 sm:w-28 sm:h-18 rounded-lg overflow-hidden shrink-0 shadow-md group cursor-pointer ring-1 ring-black/5">
-              <Image
-                src="/hero_video_thumb.jpg"
-                alt="Artisanal perfume distillation"
-                fill
-                sizes="(max-width: 640px) 80px, 112px"
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-black/25 flex items-center justify-center group-hover:bg-black/15 transition-colors">
-                <div className="w-6 h-6 sm:w-7 sm:h-7 rounded-full bg-white/70 backdrop-blur-md border border-white/80 flex items-center justify-center text-[#1f1d1b] shadow-sm group-hover:scale-110 transition-transform">
-                  <span className="material-symbols-outlined text-[13px] sm:text-[15px] translate-x-0.5 text-[#1f1d1b]">play_arrow</span>
-                </div>
-              </div>
-            </div>
-            <p className="text-[11px] sm:text-[12px] text-[#48413a] font-sans leading-snug">
-              <span className="font-medium text-[#1c1916] block mb-0.5">The Art of Distillation</span>
-              Discover our slow botanical extraction and ancient aromatherapy ritual.
-            </p>
-          </div>
-
           <div className="mt-7 sm:mt-9 flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6">
             <a
               href="/store"
-              className="bg-[#1f1d1b] text-white text-xs font-sans font-medium uppercase tracking-[0.2em] px-8 py-3.5 sm:px-9 sm:py-4 text-center rounded-none hover:bg-black transition-all shadow-[0_12px_24px_-6px_rgba(0,0,0,0.35)] hover:shadow-[0_16px_32px_-6px_rgba(0,0,0,0.45)] cursor-pointer inline-block"
+              className="bg-[#1f1d1b] text-white text-xs font-sans font-medium uppercase tracking-[0.2em] px-8 py-3.5 sm:px-9 sm:py-4 text-center rounded-none hover:bg-black transition-all cursor-pointer inline-block"
             >
               SHOP NOW
             </a>

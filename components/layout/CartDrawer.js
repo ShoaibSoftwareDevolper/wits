@@ -150,7 +150,7 @@ export default function CartDrawer() {
             <Link
               href="/checkout"
               onClick={closeCart}
-              className="w-full bg-[#1f1d1b] text-white text-xs font-sans font-medium uppercase tracking-[0.2em] py-4 rounded-none hover:bg-black transition-all shadow-[0_12px_24px_-6px_rgba(0,0,0,0.35)] cursor-pointer flex items-center justify-center gap-2"
+              className="w-full bg-[#1f1d1b] text-white text-xs font-sans font-medium uppercase tracking-[0.2em] py-4 rounded-none hover:bg-black transition-all cursor-pointer flex items-center justify-center gap-2"
             >
               <span>PROCEED TO CHECKOUT</span>
               <ArrowRight size={14} />
