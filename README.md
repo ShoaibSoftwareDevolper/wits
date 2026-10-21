@@ -1,17 +1,17 @@
 # Wits Perfumes
 
-> An e-commerce web platform for luxury fragrances and signature scents.
+> A production-ready luxury fragrance and e-commerce web platform by **Undiegravity**.
 
 [![Next.js](https://img.shields.io/badge/Next.js-16.4-black?style=flat-square&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19.3-20232a?style=flat-square&logo=react&logoColor=61DAFB)](https://react.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](./LICENSE)
+[![License](https://img.shields.io/badge/Provided_by-Undiegravity-purple.svg?style=flat-square)](https://undiegravity.com)
 
 ---
 
 ## Overview
 
-Wits Perfumes is a modern web application designed for a luxury perfume brand. The application provides an intuitive shopping experience with dedicated scent profile exploration, an editorial blog, and a streamlined checkout flow.
+**Wits Perfumes** is a luxury fragrance and e-commerce web application crafted by **Undiegravity**. The platform delivers an intuitive shopping experience with dedicated scent profile exploration, an editorial blog, and a streamlined cart and checkout flow.
 
 ---
 
@@ -63,7 +63,7 @@ wits-perfumes/
 ├── context/                   # React context providers (Cart, State)
 ├── data/                      # Static datasets for products and content
 ├── public/                    # Static assets (images, icons)
-├── LICENSE                    # MIT License
+├── LICENSE                    # License terms
 └── package.json               # Dependencies and scripts
 ```
 
@@ -111,4 +111,5 @@ wits-perfumes/
 
 ## License
 
-This project is licensed under the terms of the [MIT License](LICENSE).
+Provided by **Undiegravity**. See your purchase license for usage terms.
+
