@@ -1,0 +1,38 @@
+export const flavorProfiles = [
+  {
+    name: "Driftwood & Coastal Amber",
+    family: "Woody Aquatic",
+    image: "/product_driftwood.jpg",
+    description: "Ocean mist settling over weathered cedar and sun-bleached coastal timber.",
+    top: "Italian Bergamot, Peppercorn",
+    heart: "Smoked Cedar, Clary Sage",
+    base: "Mineral Ambergris, Wet Sand",
+  },
+  {
+    name: "15% Organic Citrus Blossom",
+    family: "Fresh Citrus Woody",
+    image: "/perfume.png",
+    description: "Crisp bitter citrus balanced with clean white florals and earthy root baselines.",
+    top: "Grapefruit, Bitter Orange",
+    heart: "Tunisian Neroli, Cardamom",
+    base: "Haitian Vetiver, White Musk",
+  },
+  {
+    name: "Nordic Pine & Wet Moss",
+    family: "Earthy Green Forest",
+    image: "/wood.png",
+    description: "Ancient Scandinavian pine groves drenched in cool autumn rain.",
+    top: "Pine Needles, Wild Juniper",
+    heart: "Green Birch Leaf, Damp Bark",
+    base: "French Oakmoss, Peat",
+  },
+  {
+    name: "Herbal Lavender Extract",
+    family: "Aromatic Herbal",
+    image: "/dropper_cup.jpg",
+    description: "Restorative botanical extract designed for mental clarity and evening calm.",
+    top: "French Lavender, Rosemary",
+    heart: "Thyme Blossom, Geranium",
+    base: "Amber Resin, Sandalwood",
+  },
+];

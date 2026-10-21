@@ -1,6 +1,11 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  allowedDevOrigins: [
+    "tribunal-compromise-norman-traveling.trycloudflare.com",
+    "*.trycloudflare.com",
+  ],
+  images: {
+    formats: ["image/webp"],
+  },
   cacheComponents: true,
   partialPrefetching: true,
   turbopack: {
