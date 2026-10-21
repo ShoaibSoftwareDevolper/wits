@@ -4,6 +4,7 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import Hero from "@/components/home/Hero";
 import Stats from "@/components/home/Stats";
+import FeaturedProducts from "@/components/home/FeaturedProducts";
 import IntensitySection from "@/components/home/IntensitySection";
 import TrustedSupportSection from "@/components/home/TrustedSupportSection";
 import SpectrumSection from "@/components/home/SpectrumSection";
@@ -32,6 +33,7 @@ export default function Home() {
         <Hero />
       </header>
       <Stats />
+      <FeaturedProducts />
       <IntensitySection />
       <TrustedSupportSection />
       <SpectrumSection />

@@ -53,7 +53,7 @@ export default function AuthenticSection() {
       <div className="text-center mt-10 sm:mt-12">
         <button
           type="button"
-          className="bg-[#1f1d1b] text-white text-xs font-sans font-medium uppercase tracking-[0.18em] px-8 py-3 rounded-none hover:bg-black transition-all shadow-[0_12px_24px_-6px_rgba(0,0,0,0.4)] cursor-pointer"
+          className="bg-[#1f1d1b] text-white text-xs font-sans font-medium uppercase tracking-[0.18em] px-8 py-3 rounded-none hover:bg-black transition-all cursor-pointer"
         >
           EXPLORE MORE
         </button>

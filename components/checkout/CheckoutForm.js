@@ -281,7 +281,7 @@ export default function CheckoutForm({
       <button
         type="submit"
         disabled={isSubmitting}
-        className="w-full bg-[#1c1a17] text-white text-xs font-sans font-medium uppercase tracking-[0.2em] py-4 rounded-none hover:bg-black transition-all shadow-[0_12px_24px_-6px_rgba(0,0,0,0.35)] cursor-pointer disabled:opacity-60"
+        className="w-full bg-[#1c1a17] text-white text-xs font-sans font-medium uppercase tracking-[0.2em] py-4 rounded-none hover:bg-black transition-all cursor-pointer disabled:opacity-60"
       >
         {isSubmitting ? "PROCESSING..." : `PLACE ORDER • $${total.toFixed(2)}`}
       </button>
